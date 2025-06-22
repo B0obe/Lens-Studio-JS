@@ -81,6 +81,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 Bandar Al-Otibie - [Portfolio](https://bento.me/b0obe)
+- LinkedIn: [@https://www.linkedin.com/in/bandar-al-otibie/](https://www.linkedin.com/in/bandar-al-otibie/)
+- Snapchat: [@b0obe](https://www.snapchat.com/add/b0obe)
 
 ## Acknowledgements
 
