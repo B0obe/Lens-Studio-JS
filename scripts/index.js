@@ -15,6 +15,7 @@
 // Animation
 export { default as BouncingObject } from './animation/BouncingObject';
 export { default as Oscillator } from './animation/Oscillator';
+export { default as Timeline } from './animation/Timeline';
 
 // Face
 export { default as BlinkDetector } from './face/BlinkDetector';
@@ -27,13 +28,16 @@ export { default as FaceExpressionTrigger } from './face/FaceExpressionTrigger';
 export { default as DragObject } from './interaction/DragObject';
 export { default as SwipeDetector } from './interaction/SwipeDetector';
 export { default as TouchGesture } from './interaction/TouchGesture';
+export { default as GyroscopeController } from './interaction/GyroscopeController';
 
 // World
 export { default as SurfaceTracker } from './world/SurfaceTracker';
+export { default as WeatherEffects } from './world/WeatherEffects';
 
 // Visual
 export { default as ColorCycler } from './visual/ColorCycler';
 export { default as ParticleEmitter } from './visual/ParticleEmitter';
+export { default as AudioVisualizer } from './visual/AudioVisualizer';
 
 // Utility
 export { default as MathUtils } from './utility/MathUtils';

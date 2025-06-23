@@ -11,6 +11,7 @@ This library provides a set of modular, customizable scripts to help Lens Studio
 ### Animation
 - **BouncingObject**: Create realistic bouncing animations for objects
 - **Oscillator**: Generate smooth oscillating movements along specified axes
+- **Timeline**: Sequence and coordinate multiple animations with precise timing
 
 ### Face
 - **BlinkDetector**: Detect eye blinks and trigger events
@@ -23,6 +24,7 @@ This library provides a set of modular, customizable scripts to help Lens Studio
 - **DragObject**: Make objects draggable with touch
 - **SwipeDetector**: Detect swipe gestures in four directions
 - **TouchGesture**: Detect and handle various touch gestures like tap, double tap, long press, swipe, pinch, and rotate
+- **GyroscopeController**: Control objects using device gyroscope and accelerometer data
 
 ### Utility
 - **MathUtils**: Common math utilities and helper functions
@@ -31,9 +33,11 @@ This library provides a set of modular, customizable scripts to help Lens Studio
 ### Visual
 - **ColorCycler**: Animate colors through custom sequences
 - **ParticleEmitter**: Create customizable particle effects
+- **AudioVisualizer**: Create visual effects that react to audio input or playback
 
 ### World
 - **SurfaceTracker**: Track surfaces and place objects in AR
+- **WeatherEffects**: Create realistic weather effects like rain, snow, fog, and wind
 
 ## Installation
 
