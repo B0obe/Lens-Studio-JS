@@ -12,6 +12,7 @@ This library provides a set of modular, customizable scripts to help Lens Studio
 - **BouncingObject**: Create realistic bouncing animations for objects
 - **Oscillator**: Generate smooth oscillating movements along specified axes
 - **Timeline**: Sequence and coordinate multiple animations with precise timing
+- **TextAnimation**: Animate text with various effects like typing, fading, and more
 
 ### Face
 - **BlinkDetector**: Detect eye blinks and trigger events
@@ -25,19 +26,23 @@ This library provides a set of modular, customizable scripts to help Lens Studio
 - **SwipeDetector**: Detect swipe gestures in four directions
 - **TouchGesture**: Detect and handle various touch gestures like tap, double tap, long press, swipe, pinch, and rotate
 - **GyroscopeController**: Control objects using device gyroscope and accelerometer data
+- **MultiTouchController**: Handle multi-touch interactions to move, rotate, and scale objects
 
 ### Utility
 - **MathUtils**: Common math utilities and helper functions
 - **CameraController**: Control camera movement, transitions, and effects
+- **VoiceController**: Control Lens experiences with voice commands
 
 ### Visual
 - **ColorCycler**: Animate colors through custom sequences
 - **ParticleEmitter**: Create customizable particle effects
 - **AudioVisualizer**: Create visual effects that react to audio input or playback
+- **LightingEffects**: Create dynamic lighting effects for enhancing scene ambiance
 
 ### World
 - **SurfaceTracker**: Track surfaces and place objects in AR
 - **WeatherEffects**: Create realistic weather effects like rain, snow, fog, and wind
+- **ARObjectPlacement**: Place objects in AR with tap or surface detection
 
 ## Installation
 
@@ -85,7 +90,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Author
 
 Bandar Al-Otibie - [Portfolio](https://bento.me/b0obe)
-- LinkedIn: [@https://www.linkedin.com/in/bandar-al-otibie/](https://www.linkedin.com/in/bandar-al-otibie/)
+- LinkedIn: [@bandar-al-otibie](https://www.linkedin.com/in/bandar-al-otibie/)
 - Snapchat: [@b0obe](https://www.snapchat.com/add/b0obe)
 
 ## Acknowledgements

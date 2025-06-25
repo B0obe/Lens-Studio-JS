@@ -7,6 +7,7 @@ Welcome to the documentation for the lens-studio-js library. This documentation 
 - [BouncingObject](./animation/BouncingObject.md): Create realistic bouncing animations for objects
 - [Oscillator](./animation/Oscillator.md): Generate smooth oscillating movements along specified axes
 - [Timeline](./animation/Timeline.md): Sequence and coordinate multiple animations with precise timing
+- [TextAnimation](./animation/TextAnimation.md): Animate text with various effects like typing, fading, and more
 
 ## Face
 
@@ -22,22 +23,26 @@ Welcome to the documentation for the lens-studio-js library. This documentation 
 - [SwipeDetector](./interaction/SwipeDetector.md): Detect swipe gestures in four directions
 - [TouchGesture](./interaction/TouchGesture.md): Detect and handle various touch gestures like tap, double tap, long press, swipe, pinch, and rotate
 - [GyroscopeController](./interaction/GyroscopeController.md): Control objects using device gyroscope and accelerometer data
+- [MultiTouchController](./interaction/MultiTouchController.md): Handle multi-touch interactions to move, rotate, and scale objects
 
 ## Utility
 
 - [MathUtils](./utility/MathUtils.md): Common math utilities and helper functions
 - [CameraController](./utility/CameraController.md): Control camera movement, transitions, and effects
+- [VoiceController](./utility/VoiceController.md): Control Lens experiences with voice commands
 
 ## Visual
 
 - [ColorCycler](./visual/ColorCycler.md): Animate colors through custom sequences
 - [ParticleEmitter](./visual/ParticleEmitter.md): Create customizable particle effects
 - [AudioVisualizer](./visual/AudioVisualizer.md): Create visual effects that react to audio input or playback
+- [LightingEffects](./visual/LightingEffects.md): Create dynamic lighting effects for enhancing scene ambiance
 
 ## World
 
 - [SurfaceTracker](./world/SurfaceTracker.md): Track surfaces and place objects in AR
 - [WeatherEffects](./world/WeatherEffects.md): Create realistic weather effects like rain, snow, fog, and wind
+- [ARObjectPlacement](./world/ARObjectPlacement.md): Place objects in AR with tap or surface detection
 
 ## Using the Scripts
 

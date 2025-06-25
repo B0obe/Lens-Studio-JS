@@ -16,6 +16,7 @@
 export { default as BouncingObject } from './animation/BouncingObject';
 export { default as Oscillator } from './animation/Oscillator';
 export { default as Timeline } from './animation/Timeline';
+export { default as TextAnimation } from './animation/TextAnimation';
 
 // Face
 export { default as BlinkDetector } from './face/BlinkDetector';
@@ -29,19 +30,23 @@ export { default as DragObject } from './interaction/DragObject';
 export { default as SwipeDetector } from './interaction/SwipeDetector';
 export { default as TouchGesture } from './interaction/TouchGesture';
 export { default as GyroscopeController } from './interaction/GyroscopeController';
+export { default as MultiTouchController } from './interaction/MultiTouchController';
 
 // World
 export { default as SurfaceTracker } from './world/SurfaceTracker';
 export { default as WeatherEffects } from './world/WeatherEffects';
+export { default as ARObjectPlacement } from './world/ARObjectPlacement';
 
 // Visual
 export { default as ColorCycler } from './visual/ColorCycler';
 export { default as ParticleEmitter } from './visual/ParticleEmitter';
 export { default as AudioVisualizer } from './visual/AudioVisualizer';
+export { default as LightingEffects } from './visual/LightingEffects';
 
 // Utility
 export { default as MathUtils } from './utility/MathUtils';
 export { default as CameraController } from './utility/CameraController';
+export { default as VoiceController } from './utility/VoiceController';
 
 /**
  * Usage example:
