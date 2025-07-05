@@ -30,6 +30,29 @@ This example demonstrates how to use the `BlinkDetector.js` script together with
 ### SmileToColorCycle.js
 Shows how to use `SmileDetector` with `ColorCycler` to create materials that change color when the user smiles. The intensity of the smile controls how fast the colors cycle.
 
+### TweenExample.js
+Shows how to use the `TweenUtils` script to create various animations with different easing functions. Demonstrates scale, position, and rotation animations as well as how to chain multiple animations together.
+
+**Features:**
+- Multiple animation types (scale, position, rotation)
+- Different easing functions for each animation
+- Ping-pong (yoyo) animations
+- Chained animations using callbacks
+- Tap to restart all animations
+
+**Setup Instructions:**
+1. Add the `TweenUtils.js` script to an object in your scene
+2. Add the `TweenExample.js` script to any object in your scene
+3. Create three objects (cube, sphere, cylinder) to animate
+4. Configure the script parameters to reference the TweenUtils script and the objects
+5. Run your lens and tap the screen to see the animations
+
+**Learn about:**
+- How to use different easing functions
+- How to animate different properties (position, scale, rotation)
+- How to chain multiple animations
+- How to create looping and ping-pong animations
+
 ## Setting up Examples
 
 To use these examples:

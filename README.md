@@ -32,6 +32,7 @@ This library provides a set of modular, customizable scripts to help Lens Studio
 - **MathUtils**: Common math utilities and helper functions
 - **CameraController**: Control camera movement, transitions, and effects
 - **VoiceController**: Control Lens experiences with voice commands
+- **TweenUtils**: Lightweight tweening utility for animating values over time
 
 ### Visual
 - **ColorCycler**: Animate colors through custom sequences
@@ -74,6 +75,7 @@ Check out the `examples` folder for sample projects demonstrating how to use the
 
 - **BlinkToBounce**: Makes an object bounce when the user blinks
 - **SmileToColorCycle**: Changes object colors when the user smiles
+- **TweenExample**: Demonstrates how to use TweenUtils for various animations
 
 ## Documentation
 

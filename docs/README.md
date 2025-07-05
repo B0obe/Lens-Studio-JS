@@ -30,6 +30,7 @@ Welcome to the documentation for the lens-studio-js library. This documentation 
 - [MathUtils](./utility/MathUtils.md): Common math utilities and helper functions
 - [CameraController](./utility/CameraController.md): Control camera movement, transitions, and effects
 - [VoiceController](./utility/VoiceController.md): Control Lens experiences with voice commands
+- [TweenUtils](./utility/TweenUtils.md): Lightweight tweening utility for animating values over time
 
 ## Visual
 

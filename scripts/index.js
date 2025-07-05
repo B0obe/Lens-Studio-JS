@@ -47,6 +47,7 @@ export { default as LightingEffects } from './visual/LightingEffects';
 export { default as MathUtils } from './utility/MathUtils';
 export { default as CameraController } from './utility/CameraController';
 export { default as VoiceController } from './utility/VoiceController';
+export { default as TweenUtils } from './utility/TweenUtils';
 
 /**
  * Usage example:
