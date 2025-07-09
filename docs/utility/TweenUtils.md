@@ -183,6 +183,8 @@ script.api.tweenTo({
 });
 ```
 
+Note: The `repeat: -1` with `yoyo: true` combination creates an infinite ping-pong effect, where the animation continuously alternates between forward and backward directions.
+
 ## Performance Considerations
 
 - The implementation is designed to be memory-efficient by avoiding object creation

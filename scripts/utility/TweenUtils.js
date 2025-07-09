@@ -232,7 +232,7 @@ function tweenTo(options, end, duration, ease, onUpdate, onComplete) {
         // Check if complete
         if (tween.elapsed >= config.duration) {
             // Handle yoyo
-            if (config.yoyo && (tween.direction > 0 || (config.repeat !== 0 && tween.iteration < config.repeat))) {
+            if (config.yoyo && (tween.direction > 0 || config.repeat === -1 || (config.repeat !== 0 && tween.iteration < config.repeat))) {
                 tween.direction *= -1;
                 tween.elapsed = 0;
                 if (tween.direction < 0) {
@@ -314,3 +314,8 @@ script.api.tweenTo = tweenTo;
 script.api.stopAllTweens = stopAllTweens;
 script.api.stopTweensByTarget = stopTweensByTarget;
 script.api.Easing = Easing; 
+
+// Add support for require system
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = script.api;
+} 

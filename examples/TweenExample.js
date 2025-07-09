@@ -21,6 +21,8 @@ var isTweening = false;
 function initialize() {
     if (!script.tweenUtils) {
         print("ERROR: Please add a reference to the TweenUtils script component!");
+        print("ALTERNATIVE: You can add TweenUtils.js to your Resources, then add it as a Script Component to any object in your scene.");
+        print("Then drag that Script Component reference to the tweenUtils input field in this script's Inspector.");
         return;
     }
     
